@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/catfact-gen/static/css/main.9374775a.css",
+    "main.js": "/catfact-gen/static/js/main.f3e35801.js",
+    "static/js/787.25012ba8.chunk.js": "/catfact-gen/static/js/787.25012ba8.chunk.js",
+    "index.html": "/catfact-gen/index.html",
+    "main.9374775a.css.map": "/catfact-gen/static/css/main.9374775a.css.map",
+    "main.f3e35801.js.map": "/catfact-gen/static/js/main.f3e35801.js.map",
+    "787.25012ba8.chunk.js.map": "/catfact-gen/static/js/787.25012ba8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9374775a.css",
+    "static/js/main.f3e35801.js"
+  ]
+}

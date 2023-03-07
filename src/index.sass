@@ -1,0 +1,78 @@
+@use 'variables'
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+    a
+        text-decoration: none
+        color: variables.$p-color
+
+body 
+    width: 100%
+    background-color: variables.$background-color-body
+
+
+.title-container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 3rem 0
+    background-color: variables.$background-color-header
+
+    h1
+        font-size: 48px
+        font-family: 'Poppins', sans-serif
+        font-weight: 700
+        color: variables.$title-color
+
+    p
+        padding: 1rem
+        font-size: 24px
+        font-family: 'Poppins', sans-serif
+        color: variables.$p-color
+    
+.cat-container
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    height: 50vh
+
+    button
+        padding: 10px 20px
+        font-size: 24px
+        border-radius: 5px
+        border: 2px solid variables.$p-color
+        cursor: pointer
+        font-family: 'Poppins', sans-serif
+        background-color: variables.$background-color-header
+        transition: 0.3s
+
+        &:hover
+            background-color: variables.$p-color
+            color: variables.$background-color-header
+            
+
+    p
+        font-size: 24px
+        padding: 2rem 0
+        font-family: 'Shantell Sans', sans-serif
+        max-width: 70%
+        color: variables.$p-color
+        font-weight: 500
+
+    
+.github-icon
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    
+    cursor: pointer
+    font-family: 'Poppins', sans-serif
+    font-weight: 500
+    
+        
